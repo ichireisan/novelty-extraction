@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+runs/
+*.sqlite*
+.env
+.env.*
+!.env.example
+.DS_Store
+# Original conversation is local research context, not part of the release.
+base chat.txt
+.codex/
+.agents/

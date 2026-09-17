@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this reference implementation, please cite the software and the foundational work relevant to your experiment."
+title: "Novelty Extraction: A Reference Implementation of Budgeted Selective Learning"
+type: software
+authors:
+  - name: "Novelty Extraction contributors"
+version: 0.1.0
+date-released: 2026-09-17
+license: MIT

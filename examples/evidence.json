@@ -1,0 +1,6 @@
+{
+  "test:retry-without-key": {
+    "key": "service:S/retry/timeout",
+    "value": "requires-idempotency-key"
+  }
+}

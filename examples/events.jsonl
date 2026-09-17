@@ -1,0 +1,3 @@
+{"event_id":"retry-1","text":"A timed-out request to service S can be retried without an idempotency key.","source":"old-runbook","claim":{"key":"service:S/retry/timeout","value":"safe-without-key"},"evidence_refs":["test:retry-without-key"]}
+{"event_id":"retry-2","text":"Reproducing the timeout created duplicate records. Retrying this endpoint requires an idempotency key.","source":"execution-test","claim":{"key":"service:S/retry/timeout","value":"requires-idempotency-key"},"evidence_refs":["test:retry-without-key"]}
+{"event_id":"retry-3","text":"Someone suggests that every service requires idempotency keys.","source":"unverified-note","claim":{"key":"all-services/retry","value":"requires-idempotency-key"},"evidence_refs":[]}
