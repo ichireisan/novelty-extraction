@@ -144,8 +144,6 @@ Good first contributions include:
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), the [research design](docs/design.md), and the [limitations](docs/limitations.md). Related foundations are collected in [references](docs/references.md).
 
-To create your public GitHub remote, follow [publishing instructions](docs/publishing.md).
-
 ## License and attribution
 
 MIT licensed. This is an independent project, unaffiliated with DeepSeek. No DeepSeek weights or implementation files are redistributed. External models and datasets retain their own licenses. See [CITATION.cff](CITATION.cff) to cite this software.
